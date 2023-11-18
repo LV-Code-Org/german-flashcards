@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  height: 100vh; /* Full viewport height */
+  margin: 0; /* Remove default body margin */
+  font-family: Inter, sans-serif;
+  background: #171717
+}
+
+.app-container {
+  display: flex; /* Use flexbox to maintain proper sizing */
+  flex-direction: column; /* Stack child elements vertically */
+  align-items: center; /* Center children horizontally */
+}
